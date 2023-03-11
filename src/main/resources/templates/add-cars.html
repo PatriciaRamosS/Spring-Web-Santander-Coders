@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar Carros</title>
+</head>
+<body>
+  <h1>Adicionar Carros</h1>
+  <form th:action="@{cars}" method="post">
+    <label>Nome</label>
+    <input type="text" name="name"/>
+    <br/>
+
+    <label>Descrição</label>
+    <input type="text" name="description"/>
+    <br/>
+
+
+    <button type="submit">Salvar</button>
+
+  </form>
+
+</body>
+</html>
